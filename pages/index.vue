@@ -5,7 +5,7 @@
         <br>
         <h2>Hello.</h2>
         <h1>My name is Ari Bahtiar.</h1>
-        <p>I'm a freelance web developer, frontend specialist using vue js and nuxt js, five years experience.
+        <p>I'm a freelance web developer, frontend specialist using Vue JS and Nuxt JS, 5 years experience.
             I have worked with startups, companies and organizations
             to create great products.</p>
         <p>
@@ -30,11 +30,13 @@
 .about-me {
     width: 60%;
     height: 100%;
+    padding: 30px;
 }
 
 @media screen and (max-width:769px) {
     .about-me {
         width: 100%;
+        padding: 10px;
     }
 }
 </style>
