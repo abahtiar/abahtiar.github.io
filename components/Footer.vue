@@ -2,7 +2,7 @@
     <footer class="footer">
         <button class="btn-act" @click="sendEmail()">
             Let's discuss!
-            <a style="display:none" id="send-email-data" href="mailto:hiaribahtiar@gmail.com?subject=Hello-Ari"></a>
+            <a style="display:none" id="send-email-data" href="mailto:hiaribahtiar@gmail.com?subject=Hello Ari"></a>
         </button>
         <nav class="social-icon">
             <a target="_BLANK" href="https://github.com/kewcoder">
@@ -28,7 +28,7 @@
     width: 100%;
     box-shadow: 1px 1px 1px #ccc;
     background: white;
-    padding: 12px 30px;
+    padding: 12px 35px;
     display: flex;
     z-index: 20;
 }

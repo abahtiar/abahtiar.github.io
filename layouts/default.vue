@@ -8,9 +8,9 @@
             <button class="btn-icon-menu" @click="setShowMenu(true)">
               <svg width="40" height="40" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 16.745c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-5c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm4-5c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z" fill-rule="nonzero"/></svg>
             </button>
-            <!-- <main>
+            <main>
                 <NuxtPage />
-            </main> -->
+            </main>
        </div>
         <!-- footer -->
         <Footer></Footer>
@@ -32,7 +32,7 @@ body{
     margin: 30px 2%;
     padding: 30px;
     position: relative;
-    min-height: 600px;
+    min-height: 80vh;
     margin-bottom: 150px;
 }
 .btn-icon-menu{
@@ -47,6 +47,10 @@ body{
     .btn-icon-menu{
         top: 30px;
         right: 30px;
+    }
+    .container{
+        min-height: 85vh;
+        margin-bottom: 120px;
     }
 }
 </style>
