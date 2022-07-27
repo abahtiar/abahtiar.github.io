@@ -53,7 +53,7 @@ body{
 
 <script setup>
 const state = reactive({
-  showMenu: true,
+  showMenu: false,
 })
 const setShowMenu = (to) =>{
   state.showMenu = to
