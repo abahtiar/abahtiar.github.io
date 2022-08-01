@@ -7,10 +7,10 @@
     <nav class="nav-menu">
         <!-- menu -->
         <nuxt-link to="/" @click="$emit('showMenu', false)">About Me</nuxt-link>
-        <nuxt-link to="/latest-project" @click="$emit('showMenu', false)">My Latest Project</nuxt-link>
         <nuxt-link to="/work-experience" @click="$emit('showMenu', false)">Work Experience</nuxt-link>
-        <nuxt-link to="/" @click="$emit('showMenu', false)">Download CV</nuxt-link>
-        <nuxt-link to="/" @click="$emit('showMenu', false)">Contact Me</nuxt-link>
+        <!-- <nuxt-link to="/latest-project" @click="$emit('showMenu', false)">Latest Project</nuxt-link> -->
+        <a href="/resume_ari_bahtiar.pdf" download="" @click="$emit('showMenu', false)">Download Resume</a>
+        <a href="mailto:hiaribahtiar@gmail.com?subject=Hello Ari" @click="$emit('showMenu', false)">Contact Me</a>
     </nav>
 </div>
 </template>
